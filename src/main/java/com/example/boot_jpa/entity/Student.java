@@ -16,11 +16,10 @@ public class Student {
     @Transient
     private  Integer gid;
 
-
     //维护方
     @ManyToOne(targetEntity = Grade.class,fetch = FetchType.LAZY)
     @JoinColumn(name = "gid")
-    private Grade grade;
+    private Grade grade ;
 
 
 

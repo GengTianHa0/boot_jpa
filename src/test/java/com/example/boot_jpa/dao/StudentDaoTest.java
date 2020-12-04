@@ -26,7 +26,6 @@ class StudentDaoTest {
 
     }
 
-
     @Test
     void add(){
         Student student=new Student();
